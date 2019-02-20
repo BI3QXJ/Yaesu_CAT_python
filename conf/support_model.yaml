@@ -1,0 +1,54 @@
+PORT:
+  CP2102:
+    VENDOR_ID: 10c4
+    MODEL_ID: CP2105_Dual_USB_to_UART_Bridge_Controller
+
+RADIO_ID:
+  YAESU:
+    '0650': 'FT-891'
+    '0241': 'FT-450'
+    '0244': 'FT-450D'
+    '0570': 'FT-991'
+    '0670': 'FT-991A'
+    '0251': 'FT-2000'
+    '0252': 'FT-2000D'
+    '0582': 'FT-DX1200(FFT-1)'
+    '0583': 'FT-DX1200'
+    # 'XXXX': 'FT-DX3000'
+    '0362': 'FT-DX5000'
+    '0101': 'FT-DX9000D'
+    '0102': 'FT-DX9000Contest'
+    '0103': 'FT-DX9000MP'
+
+# 电台CAT命令列表和对应的类
+RADIO_CONF:
+  'FT-891':
+    CONF:
+      - conf/YAESU_CAT3.yaml
+      - conf/YAESU_FT-891.yaml
+    CLASS: YAESU_CAT
+  'FT-450'
+    CONF:
+      - conf/YAESU_CAT3.yaml
+      - conf/YAESU_FT-450.yaml
+    CLASS: YAESU_CAT
+  'FT-991'
+    CONF:
+      - conf/YAESU_CAT3.yaml
+      - conf/YAESU_FT-991.yaml
+    CLASS: YAESU_CAT
+  # 'FT-450D'
+  # 'FT-991A'
+  # 'FT-2000'
+  # 'FT-2000D'
+  # 'FT-DX1200(FFT-1)'
+  # 'FT-DX1200'
+  # 'FT-DX3000'
+  # 'FT-DX5000'
+  # 'FT-DX9000D'
+  # 'FT-DX9000Contest'
+  # 'FT-DX9000MP'
+    
+  
+
+  
